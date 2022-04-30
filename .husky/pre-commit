@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+# git提交本地仓时先经过Eslint+Prettier校正
+npm run lint
